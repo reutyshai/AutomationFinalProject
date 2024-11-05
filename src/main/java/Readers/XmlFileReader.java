@@ -13,7 +13,7 @@ import java.io.File;
  */
 @Slf4j
 public class XmlFileReader {
-
+static Logger logger=Logger.getInstance();
     /**
      * Retrieves the text content of the first occurrence of a specified node
      * from the XML file.
@@ -36,7 +36,7 @@ public class XmlFileReader {
             dBuilder = dbFactory.newDocumentBuilder();
             doc = dBuilder.parse(fXmlFile);
         } catch (Exception e) {
-            log.info("Exception in reading XML file: " + e);
+            logger.info("Exception in reading XML file: " + e);
         }
         doc.getDocumentElement().normalize();
         return doc.getElementsByTagName(nodeName).item(0).getTextContent();

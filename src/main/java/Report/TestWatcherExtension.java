@@ -8,23 +8,31 @@ import java.util.Optional;
 public class TestWatcherExtension implements TestWatcher {
     ReportHandler reportStrategy;
 
+    public TestWatcherExtension(ReportHandler reportStrategy) {
+        this.reportStrategy = new AllureReportStrategy();
+    }
+
     @Override
     public void testSuccessful(ExtensionContext context) {
-        reportStrategy.successReport(context.getDisplayName()+" succeed");
+
+        reportStrategy.successReport( "The test succeeded",context.getDisplayName());
     }
 
     @Override
     public void testFailed(ExtensionContext context, Throwable cause) {
-        TestWatcher.super.testFailed(context, cause);
+        reportStrategy.failureReport("The test failed "+ cause,
+                context.getDisplayName());
     }
 
     @Override
     public void testAborted(ExtensionContext context, Throwable cause) {
-        TestWatcher.super.testAborted(context, cause);
+        reportStrategy.abortingReport("The test aborted "+ cause,
+                context.getDisplayName());
     }
 
     @Override
     public void testDisabled(ExtensionContext context, Optional<String> reason) {
-        TestWatcher.super.testDisabled(context, reason);
+        reportStrategy.disabledReport( "The test disabled "+reason,
+                context.getDisplayName());
     }
 }

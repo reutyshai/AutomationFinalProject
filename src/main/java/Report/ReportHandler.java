@@ -1,13 +1,14 @@
 package Report;
 
 public interface ReportHandler {
+
     void setNext();
 
-    void successReport(String massage);
+    void successReport(String message, String testName);
 
-    void failureReport(String massage);
+    void failureReport(String message, String testName);
 
-    void disabledReport(String massage);
+    void disabledReport(String message, String testName);
 
-    void abortingReport(String massage);
+    void abortingReport(String message, String testName);
 }
