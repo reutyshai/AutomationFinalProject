@@ -7,44 +7,36 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Wait;
 
-public class WebDriverFactory {
-    private static WebDriver driverManager;
+public abstract class WebDriverFactory {
+    protected WebDriver driverManager;
 
-    private WebDriverFactory() {
+
+    public WebDriverFactory() {
     }
 
-    public static synchronized WebDriver createDriver() {
+    public abstract void initDriver();
 
-        switch (XmlFileReader.getData("src/main/resources/config.xml","Browser").toUpperCase()) {
-            case "CHROME":
-                WebDriverManager.chromedriver().setup();
-                driverManager = new ChromeDriver();
-                break;
-            case "FIREFOX":
-                WebDriverManager.firefoxdriver().setup();
-                driverManager = new FirefoxDriver();
-                break;
-            case "EDGE":
-                WebDriverManager.edgedriver().setup();
-                driverManager = new EdgeDriver();
-                break;
-            default:
-                throw new IllegalArgumentException("Unsupported browser type: " + XmlFileReader.getData("","Browser"));
-        }
+    public WebDriver createDriver() {
+        initDriver();
+        maximize();
+        get();
+        waitToElements();
         return driverManager;
     }
 
-    public static WebDriver getDriver() {
-        if (driverManager == null)
-            driverManager = createDriver();
-        return driverManager;
+
+    private void maximize() {
+        driverManager.manage().window().maximize();
     }
 
-    public static void quitDriver() {
-        if (driverManager != null) {
-            driverManager.quit();
-            driverManager = null; // Allow the driver to be recreated on the next request
-        }
+    private void waitToElements() {
+
     }
+
+    private void get() {
+        driverManager.get(XmlFileReader.getData("src/main/resources/config.xml", "Url"));
+    }
+
 }
