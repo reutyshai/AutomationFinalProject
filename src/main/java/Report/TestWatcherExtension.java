@@ -8,7 +8,7 @@ import java.util.Optional;
 public class TestWatcherExtension implements TestWatcher {
     ReportHandler reportStrategy;
 
-    public TestWatcherExtension(ReportHandler reportStrategy) {
+    public TestWatcherExtension() {
         this.reportStrategy = new AllureReportStrategy();
     }
 

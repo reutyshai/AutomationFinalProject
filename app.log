@@ -1,0 +1,2 @@
+2024-11-05 14:13:47 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
+2024-11-05 14:14:29 - Test: test() The test succeeded

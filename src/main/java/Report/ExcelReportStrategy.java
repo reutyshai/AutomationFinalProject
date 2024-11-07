@@ -21,7 +21,7 @@ public class ExcelReportStrategy implements ReportHandler {
         LocalDate date = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         String dateString = date.format(formatter);
-        testResults.put("name", testName);
+        testResults.put("Name", testName);
         testResults.put("Status", status);
         testResults.put("Message", message);
         testResults.put("Date", dateString);
