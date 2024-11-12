@@ -1,5 +1,6 @@
 package Report;
 
+import DriverFactory.WebDriverBrowserManager;
 import Readers.Image;
 import Readers.XmlFileReader;
 import Report.ImageReport.ScreenshotUtil;
@@ -9,13 +10,14 @@ import Report.ReportHandlerStrtegy.ReportHandler;
 import Report.ReportWriters.Allure.AllureUtils;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestWatcher;
+import org.openqa.selenium.WebDriver;
 
 import javax.sql.rowset.spi.XmlReader;
 import java.util.Optional;
 
 public class TestWatcherExtension implements TestWatcher {
     ReportHandler reportStrategy;
-
+    WebDriver driver;
 
     public TestWatcherExtension() {
         this.reportStrategy = new LogReportStrategy();
@@ -29,11 +31,12 @@ public class TestWatcherExtension implements TestWatcher {
 
     @Override
     public void testFailed(ExtensionContext context, Throwable cause) {
-        String imagePath=ScreenshotUtil.takeScreenshot(,XmlFileReader.getData("src/main/resources/config.xml",
+        driver=WebDriverBrowserManager.getDriver("driver");
+        String imagePath = ScreenshotUtil.takeScreenshot(driver, XmlFileReader.getData("src/main/resources/config.xml",
                 "PathScreenShot"));
         AllureUtils.attachScreenshotToAllure(imagePath);
         reportStrategy.failureReport("The test failed " + cause,
-                context.getDisplayName(),imagePath);
+                context.getDisplayName(), imagePath);
 
     }
 

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Enviroment>
     <Browser>Chrome</Browser>
-    <Url>https://atid.store/</Url>
+    <Url>https://www.saucedemo.com/</Url>
     <PathScreenShot>C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot</PathScreenShot>
+    <DriversName>
+        <driver1>driver</driver1>
+    </DriversName>
 </Enviroment>

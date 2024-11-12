@@ -8,9 +8,10 @@ import org.junit.jupiter.api.extension.ExtensionContext;
 
 public class LifeCycleExtension implements BeforeAllCallback, AfterAllCallback {
     private static ExcelReportManager reportManager;
-
+public static String testClassName="";
     @Override
     public void beforeAll(ExtensionContext context) {
+        testClassName=context.getTestClass().getClass().getName();
         reportManager=ExcelReportManager.getInstance();
     }
 

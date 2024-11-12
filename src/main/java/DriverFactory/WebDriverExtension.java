@@ -11,14 +11,13 @@ public class WebDriverExtension implements BeforeAllCallback, AfterAllCallback {
     WebDriver driver;
 
     @Override
-    public void beforeAll(ExtensionContext context) throws Exception {
-        driver = WebDriverBrowserManager.getDriver();
-        driver.manage().window().maximize();
-        driver.get(XmlFileReader.getData("src/main/resources/config.xml","Url"));
+    public void beforeAll(ExtensionContext context) {
+        driver = WebDriverBrowserManager.getDriver("driver");
     }
 
     @Override
-    public void afterAll(ExtensionContext context) throws Exception {
-
+    public void afterAll(ExtensionContext context) {
+        WebDriverBrowserManager.cleanupDriver("driver");
     }
+
 }
