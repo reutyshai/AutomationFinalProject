@@ -1,3 +1,4 @@
+//import Report.LifeCycleExtension;
 import Report.LifeCycleExtension;
 import Report.TestWatcherExtension;
 import org.junit.jupiter.api.Assertions;
@@ -9,12 +10,8 @@ import org.junit.jupiter.api.extension.ExtendWith;
 public class PracticeTest {
 
     @Test
-    public void test(){
-        Assertions.assertEquals(1,2);
-    }
-    @Test
     public void test01(){
-        Assertions.assertEquals(1,1);
+        Assertions.assertEquals(1,2);
     }
     @Test
     public void test02(){
@@ -22,6 +19,10 @@ public class PracticeTest {
     }
     @Test
     public void test03(){
+        Assertions.assertEquals(1,1);
+    }
+    @Test
+    public void test04(){
         Assertions.assertEquals(1,2);
     }
 }

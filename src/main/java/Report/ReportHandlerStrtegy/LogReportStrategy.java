@@ -1,19 +1,13 @@
 package Report.ReportHandlerStrtegy;
 
-import Readers.Image;
 import Report.ReportWriters.Logger;
-import Report.ImageReport.ImageToLog;
 
 public class LogReportStrategy implements ReportHandler {
     ReportHandler next;
     Logger logger = Logger.getInstance();
-    Image image;
-    ImageToLog imageToLog;
 
-    public LogReportStrategy(Image image) {
+    public LogReportStrategy() {
         setNext();
-        this.image = image;
-        imageToLog = new ImageToLog();
     }
 
     @Override
@@ -25,10 +19,10 @@ public class LogReportStrategy implements ReportHandler {
     }
 
     @Override
-    public void failureReport(String massage, String testName) {
-        logger.error("Test: " + testName + " " + massage);
-        imageToLog.addImageToReport(image);
-        this.next.failureReport(massage, testName);
+    public void failureReport(String massage, String testName, String imagePath) {
+        logger.error("Test: " + testName + " " + massage + ". Path of image report: "
+        + imagePath);
+        this.next.failureReport(massage, testName,imagePath );
     }
 
     @Override
@@ -46,6 +40,6 @@ public class LogReportStrategy implements ReportHandler {
 
     @Override
     public void setNext() {
-        this.next = new ExcelReportStrategy(image);
+        this.next = new ExcelReportStrategy();
     }
 }

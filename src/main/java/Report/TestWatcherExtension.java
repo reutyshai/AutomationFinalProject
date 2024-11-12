@@ -1,11 +1,16 @@
 package Report;
 
 import Readers.Image;
+import Readers.XmlFileReader;
+import Report.ImageReport.ScreenshotUtil;
 import Report.ReportHandlerStrtegy.AllureReportStrategy;
+import Report.ReportHandlerStrtegy.LogReportStrategy;
 import Report.ReportHandlerStrtegy.ReportHandler;
+import Report.ReportWriters.Allure.AllureUtils;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestWatcher;
 
+import javax.sql.rowset.spi.XmlReader;
 import java.util.Optional;
 
 public class TestWatcherExtension implements TestWatcher {
@@ -13,7 +18,7 @@ public class TestWatcherExtension implements TestWatcher {
 
 
     public TestWatcherExtension() {
-        this.reportStrategy = new AllureReportStrategy(new Image(""));
+        this.reportStrategy = new LogReportStrategy();
     }
 
     @Override
@@ -24,8 +29,12 @@ public class TestWatcherExtension implements TestWatcher {
 
     @Override
     public void testFailed(ExtensionContext context, Throwable cause) {
+        String imagePath=ScreenshotUtil.takeScreenshot(,XmlFileReader.getData("src/main/resources/config.xml",
+                "PathScreenShot"));
+        AllureUtils.attachScreenshotToAllure(imagePath);
         reportStrategy.failureReport("The test failed " + cause,
-                context.getDisplayName());
+                context.getDisplayName(),imagePath);
+
     }
 
     @Override

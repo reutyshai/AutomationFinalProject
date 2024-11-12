@@ -2,4 +2,5 @@
 <Enviroment>
     <Browser>Chrome</Browser>
     <Url>https://atid.store/</Url>
+    <PathScreenShot>C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot</PathScreenShot>
 </Enviroment>

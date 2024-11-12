@@ -6,7 +6,7 @@ public interface ReportHandler {
 
     void successReport(String message, String testName);
 
-    void failureReport(String message, String testName);
+    void failureReport(String message, String testName,String imagePath);
 
     void disabledReport(String message, String testName);
 

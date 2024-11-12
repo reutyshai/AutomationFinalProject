@@ -1,20 +1,21 @@
 package Report;
 
-import Report.ReportWriters.ExcelWriter;
+
+import Report.ReportWriters.Excel.ExcelReportManager;
 import org.junit.jupiter.api.extension.AfterAllCallback;
 import org.junit.jupiter.api.extension.BeforeAllCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 
 public class LifeCycleExtension implements BeforeAllCallback, AfterAllCallback {
-    private static ExcelWriter excelWriter;
+    private static ExcelReportManager reportManager;
 
     @Override
     public void beforeAll(ExtensionContext context) {
-        excelWriter = ExcelWriter.getInstance();
+        reportManager=ExcelReportManager.getInstance();
     }
 
     @Override
     public void afterAll(ExtensionContext context) {
-        excelWriter.saveAndClose();
+        reportManager.saveAndClose();
     }
 }
