@@ -1,7 +1,7 @@
 import DriverFactory.WebDriverBrowserManager;
 import DriverFactory.WebDriverExtension;
-import Report.LifeCycleExtension;
-import Report.TestWatcherExtension;
+import Report.Extensions.LifeCycleExtension;
+import Report.Extensions.TestWatcherExtension;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -17,6 +17,7 @@ public class PracticeTest {
     public void setUp() {
         driver = WebDriverBrowserManager.getDriver("driver"); // משתמשים בשיטה מתוך המחלקה המנוהלת
     }
+
 
     @Test
     public void test01(){

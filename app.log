@@ -1,67 +1,267 @@
-2024-11-05 14:13:47 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-05 14:14:29 - Test: test() The test succeeded
-2024-11-07 12:08:11 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:13:51 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:17:12 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:18:14 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:28:04 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:29:51 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:31:12 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:32:16 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:34:47 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:35:25 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:36:50 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:39:58 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:39:58 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:40:52 - Test: test() The test succeeded
-2024-11-07 12:41:05 - Test: test() The test succeeded
-2024-11-07 12:41:30 - Test: test() The test succeeded
-2024-11-07 12:42:00 - Test: test() The test succeeded
-2024-11-07 12:42:16 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:43:57 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:48:46 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:50:17 - Test: test() The test succeeded
-2024-11-07 12:50:40 - Test: test() The test succeeded
-2024-11-07 12:50:50 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-07 12:51:20 - Test: test() The test succeeded
-2024-11-11 10:59:05 - Test: test01() The test succeeded
-2024-11-11 10:59:05 - Test: test02() The test succeeded
-2024-11-11 10:59:06 - Test: test03() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-11 10:59:06 - Test: test() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-11 11:33:43 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-11 11:33:43 - Test: test02() The test succeeded
-2024-11-11 11:33:48 - Test: test03() The test succeeded
-2024-11-11 11:33:49 - Test: test04() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-11 12:11:28 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-11 12:11:30 - Test: test02() The test succeeded
-2024-11-11 12:11:30 - Test: test03() The test succeeded
-2024-11-11 12:11:30 - Test: test04() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-12 10:21:22 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-12 10:21:23 - Test: test02() The test succeeded
-2024-11-12 10:21:24 - Test: test03() The test succeeded
-2024-11-12 10:21:24 - Test: test04() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-12 10:21:34 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-12 10:21:35 - Test: test02() The test succeeded
-2024-11-12 10:21:35 - Test: test03() The test succeeded
-2024-11-12 10:21:36 - Test: test04() The test failed org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-2024-11-12 14:26:59 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
-2024-11-12 14:27:00 - Downloading https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/win64/chromedriver-win64.zip
-2024-11-12 14:27:02 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
-2024-11-12 14:27:05 - Downloading https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/win64/chromedriver-win64.zip
-2024-11-12 14:27:05 - Extracting driver from compressed file chromedriver-win64.zip
-2024-11-12 14:27:07 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
-2024-11-12 14:27:09 - Extracting driver from compressed file chromedriver-win64.zip
-2024-11-12 14:27:10 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
-2024-11-12 14:27:23 - Test: test01() The test succeeded
-2024-11-12 14:27:25 - Test: test02() The test succeeded
-2024-11-12 14:27:27 - Test: test01() The test succeeded
-2024-11-12 14:27:28 - Test: test02() The test succeeded
-2024-11-12 14:53:37 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
-2024-11-12 14:53:37 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
-2024-11-12 14:53:52 - Test: test01() The test succeeded
-2024-11-12 14:53:55 - Test: test02() The test succeeded
-2024-11-12 14:57:02 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
-2024-11-12 14:57:02 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
-2024-11-12 14:57:12 - Could not add attachment: no test is running
-2024-11-12 14:57:12 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241112_145711.png
-2024-11-12 14:57:13 - Test: test02() The test succeeded
+2024-11-13 10:33:33 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 10:33:34 - Downloading https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip
+2024-11-13 10:33:35 - Extracting driver from compressed file chromedriver_win32.zip
+2024-11-13 10:33:35 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 10:33:38 - Could not add attachment: no test is running
+2024-11-13 10:33:38 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_103338.png
+2024-11-13 10:33:39 - Test: test02() The test succeeded
+2024-11-13 10:37:45 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 10:37:45 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 10:37:48 - Could not add attachment: no test is running
+2024-11-13 10:37:48 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_103748.png
+2024-11-13 10:37:48 - Test: test02() The test succeeded
+2024-11-13 10:38:32 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 10:38:32 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 10:38:33 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 10:38:33 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 10:54:24 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 10:54:24 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 10:54:26 - Could not add attachment: no test is running
+2024-11-13 10:54:26 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_105426.png
+2024-11-13 10:54:27 - Test: test02() The test succeeded
+2024-11-13 10:56:11 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 10:56:11 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 10:56:13 - Could not add attachment: no test is running
+2024-11-13 10:56:13 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_105613.png
+2024-11-13 10:56:13 - Test: test02() The test succeeded
+2024-11-13 10:57:14 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 10:57:14 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 10:57:17 - Could not add attachment: no test is running
+2024-11-13 10:57:17 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_105716.png
+2024-11-13 10:57:17 - Test: test02() The test succeeded
+2024-11-13 10:57:55 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 10:57:55 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 10:57:57 - Could not add attachment: no test is running
+2024-11-13 10:57:57 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_105757.png
+2024-11-13 10:57:58 - Test: test02() The test succeeded
+2024-11-13 11:02:55 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:02:55 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:02:58 - Could not add attachment: no test is running
+2024-11-13 11:02:58 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_110258.png
+2024-11-13 11:02:58 - Test: test02() The test succeeded
+2024-11-13 11:10:52 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:10:52 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:10:55 - Could not add attachment: no test is running
+2024-11-13 11:10:55 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_111055.png
+2024-11-13 11:10:55 - Test: test02() The test succeeded
+2024-11-13 11:11:29 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:11:29 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:11:31 - Could not add attachment: no test is running
+2024-11-13 11:11:31 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_111131.png
+2024-11-13 11:11:32 - Test: test02() The test succeeded
+2024-11-13 11:13:04 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:13:04 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:13:20 - Could not add attachment: no test is running
+2024-11-13 11:13:20 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_111320.png
+2024-11-13 11:13:22 - Test: test02() The test succeeded
+2024-11-13 11:14:20 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:14:20 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:14:23 - Could not add attachment: no test is running
+2024-11-13 11:14:46 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_111423.png
+2024-11-13 11:18:56 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:18:56 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:18:58 - Could not add attachment: no test is running
+2024-11-13 11:18:58 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_111858.png
+2024-11-13 11:18:58 - Test: test02() The test succeeded
+2024-11-13 11:19:48 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:19:48 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:19:50 - Could not add attachment: no test is running
+2024-11-13 11:19:50 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_111950.png
+2024-11-13 11:19:50 - Test: test02() The test succeeded
+2024-11-13 11:20:30 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:20:30 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:20:32 - Could not add attachment: no test is running
+2024-11-13 11:20:32 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_112032.png
+2024-11-13 11:20:33 - Test: test02() The test succeeded
+2024-11-13 11:22:30 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:22:30 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:22:33 - Could not add attachment: no test is running
+2024-11-13 11:22:33 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_112233.png
+2024-11-13 11:22:33 - Test: test02() The test succeeded
+2024-11-13 11:24:34 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:24:34 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:24:37 - Could not add attachment: no test is running
+2024-11-13 11:24:37 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_112436.png
+2024-11-13 11:24:37 - Test: test02() The test succeeded
+2024-11-13 11:27:19 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:27:19 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:27:21 - Could not add attachment: no test is running
+2024-11-13 11:27:21 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_112721.png
+2024-11-13 11:27:22 - Test: test02() The test succeeded
+2024-11-13 11:29:07 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:29:07 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:29:09 - Could not add attachment: no test is running
+2024-11-13 11:29:09 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_112909.png
+2024-11-13 11:29:10 - Test: test02() The test succeeded
+2024-11-13 11:30:08 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:30:08 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:30:11 - Could not add attachment: no test is running
+2024-11-13 11:30:11 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_113010.png
+2024-11-13 11:30:11 - Test: test02() The test succeeded
+2024-11-13 11:30:58 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:30:58 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:31:01 - Could not add attachment: no test is running
+2024-11-13 11:31:01 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_113101.png
+2024-11-13 11:31:01 - Test: test02() The test succeeded
+2024-11-13 11:31:15 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:31:15 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:31:18 - Could not add attachment: no test is running
+2024-11-13 11:31:18 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_113118.png
+2024-11-13 11:31:18 - Test: test02() The test succeeded
+2024-11-13 11:32:23 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:32:23 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:32:25 - Could not add attachment: no test is running
+2024-11-13 11:32:25 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_113225.png
+2024-11-13 11:32:26 - Test: test02() The test succeeded
+2024-11-13 11:32:48 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:32:48 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:32:51 - Could not add attachment: no test is running
+2024-11-13 11:32:51 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_113251.png
+2024-11-13 11:32:51 - Test: test02() The test succeeded
+2024-11-13 11:34:31 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:34:31 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:34:34 - Could not add attachment: no test is running
+2024-11-13 11:34:34 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_113434.png
+2024-11-13 11:34:34 - Test: test02() The test succeeded
+2024-11-13 11:35:43 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:35:43 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:35:46 - Could not add attachment: no test is running
+2024-11-13 11:35:46 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_113546.png
+2024-11-13 11:35:46 - Test: test02() The test succeeded
+2024-11-13 11:39:36 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:39:36 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:39:39 - Could not add attachment: no test is running
+2024-11-13 11:39:39 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_113939.png
+2024-11-13 11:39:39 - Test: test02() The test succeeded
+2024-11-13 11:42:05 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:42:05 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:42:08 - Could not add attachment: no test is running
+2024-11-13 11:42:08 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_114208.png
+2024-11-13 11:42:08 - Test: test02() The test succeeded
+2024-11-13 11:42:26 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:42:26 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:42:29 - Could not add attachment: no test is running
+2024-11-13 11:42:29 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_114229.png
+2024-11-13 11:42:30 - Test: test02() The test succeeded
+2024-11-13 11:50:40 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:50:40 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:50:43 - Could not add attachment: no test is running
+2024-11-13 11:50:43 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_115043.png
+2024-11-13 11:50:44 - Test: test02() The test succeeded
+2024-11-13 11:54:03 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:54:03 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:54:07 - Could not add attachment: no test is running
+2024-11-13 11:54:07 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_115407.png
+2024-11-13 11:54:08 - Test: test02() The test succeeded
+2024-11-13 11:55:43 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:55:43 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:55:46 - Could not add attachment: no test is running
+2024-11-13 11:55:46 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_115546.png
+2024-11-13 11:55:47 - Test: test02() The test succeeded
+2024-11-13 11:58:41 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:58:41 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:58:45 - Could not add attachment: no test is running
+2024-11-13 11:58:45 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_115844.png
+2024-11-13 11:58:45 - Test: test02() The test succeeded
+2024-11-13 11:59:17 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:59:17 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:59:21 - Could not add attachment: no test is running
+2024-11-13 11:59:21 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_115921.png
+2024-11-13 11:59:21 - Test: test02() The test succeeded
+2024-11-13 11:59:49 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 11:59:49 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 11:59:53 - Could not add attachment: no test is running
+2024-11-13 11:59:53 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_115953.png
+2024-11-13 11:59:54 - Test: test02() The test succeeded
+2024-11-13 12:08:57 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 12:08:57 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 12:09:00 - Could not add attachment: no test is running
+2024-11-13 12:09:00 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_120859.png
+2024-11-13 12:09:00 - Test: test02() The test succeeded
+2024-11-13 12:09:43 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 12:09:43 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 12:09:46 - Could not add attachment: no test is running
+2024-11-13 12:09:46 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_120946.png
+2024-11-13 12:09:46 - Test: test02() The test succeeded
+2024-11-13 12:12:51 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 12:12:51 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 12:12:54 - Could not add attachment: no test is running
+2024-11-13 12:12:54 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_121254.png
+2024-11-13 12:12:55 - Test: test02() The test succeeded
+2024-11-13 12:15:21 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 12:15:21 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 12:15:24 - Test: test01() The test succeeded
+2024-11-13 12:15:24 - Test: test02() The test succeeded
+2024-11-13 12:15:45 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 12:15:45 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 12:15:52 - Could not add attachment: no test is running
+2024-11-13 12:15:52 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_121552.png
+2024-11-13 12:15:52 - Test: test02() The test succeeded
+2024-11-13 12:16:06 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 12:16:06 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 12:16:09 - Test: test01() The test succeeded
+2024-11-13 12:16:09 - Test: test02() The test succeeded
+2024-11-13 12:17:06 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 12:17:06 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 12:17:08 - Test: test01() The test succeeded
+2024-11-13 12:17:08 - Test: test02() The test succeeded
+2024-11-13 12:17:26 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 12:17:26 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 12:17:29 - Could not add attachment: no test is running
+2024-11-13 12:17:29 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_121729.png
+2024-11-13 12:17:30 - Test: test02() The test succeeded
+2024-11-13 13:01:11 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 13:01:11 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 13:01:14 - Could not add attachment: no test is running
+2024-11-13 13:01:14 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_130113.png
+2024-11-13 13:01:14 - Test: test02() The test succeeded
+2024-11-13 13:01:49 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 13:01:49 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 13:01:52 - Could not add attachment: no test is running
+2024-11-13 13:01:52 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_130152.png
+2024-11-13 13:01:52 - Test: test02() The test succeeded
+2024-11-13 13:03:09 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 13:03:09 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 13:03:14 - Could not add attachment: no test is running
+2024-11-13 13:03:14 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_130313.png
+2024-11-13 13:03:14 - Test: test02() The test succeeded
+2024-11-13 13:07:17 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 13:07:17 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 13:07:21 - Could not add attachment: no test is running
+2024-11-13 13:07:21 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_130721.png
+2024-11-13 13:07:21 - Test: test02() The test succeeded
+2024-11-13 13:10:51 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 13:10:51 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 13:10:56 - Could not add attachment: no test is running
+2024-11-13 13:10:56 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_131055.png
+2024-11-13 13:10:56 - Test: test02() The test succeeded
+2024-11-13 13:12:56 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 13:12:56 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 13:12:59 - Could not add attachment: no test is running
+2024-11-13 13:12:59 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_131258.png
+2024-11-13 13:12:59 - Test: test02() The test succeeded
+2024-11-13 13:16:16 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 13:16:16 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 13:16:19 - Could not add attachment: no test is running
+2024-11-13 13:16:19 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_131619.png
+2024-11-13 13:16:19 - Test: test02() The test succeeded
+2024-11-13 13:18:19 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 13:18:19 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 13:18:22 - Could not add attachment: no test is running
+2024-11-13 13:18:22 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_131822.png
+2024-11-13 13:18:23 - Test: test02() The test succeeded
+2024-11-13 13:23:03 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 13:23:03 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 13:23:07 - Could not add attachment: no test is running
+2024-11-13 13:23:07 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_132306.png
+2024-11-13 13:23:07 - Test: test02() The test succeeded
+2024-11-13 13:29:01 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 13:29:01 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 13:29:04 - Could not add attachment: no test is running
+2024-11-13 13:29:04 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_132904.png
+2024-11-13 13:29:05 - Test: test02() The test succeeded
+2024-11-13 13:31:21 - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2024-11-13 13:31:21 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2024-11-13 13:31:24 - Could not add attachment: no test is running
+2024-11-13 13:31:24 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_133124.png
+2024-11-13 13:31:24 - Test: test02() The test succeeded
