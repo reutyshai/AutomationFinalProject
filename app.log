@@ -265,3 +265,35 @@
 2024-11-13 13:31:24 - Could not add attachment: no test is running
 2024-11-13 13:31:24 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241113_133124.png
 2024-11-13 13:31:24 - Test: test02() The test succeeded
+2024-11-14 14:24:00 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-14 14:24:00 - Downloading https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/win64/chromedriver-win64.zip
+2024-11-14 14:24:09 - Extracting driver from compressed file chromedriver-win64.zip
+2024-11-14 14:24:09 - Exporting webdriver.chrome.driver as C:\Users\1\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-14 14:24:15 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241114_142415.png
+2024-11-14 14:24:15 - Test: test02() The test succeeded
+2024-11-14 14:25:03 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-14 14:25:03 - Exporting webdriver.chrome.driver as C:\Users\1\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-14 14:25:06 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241114_142506.png
+2024-11-14 14:25:06 - Test: test02() The test succeeded
+2024-11-14 14:34:16 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-14 14:34:16 - Exporting webdriver.chrome.driver as C:\Users\1\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-14 14:34:19 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241114_143419.png
+2024-11-14 14:34:19 - Test: test02() The test succeeded
+2024-11-14 14:43:39 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-14 14:43:39 - Exporting webdriver.chrome.driver as C:\Users\1\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-14 14:43:45 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241114_144345.png
+2024-11-14 14:43:45 - Test: test02() The test succeeded
+2024-11-14 14:44:34 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-14 14:44:34 - Exporting webdriver.chrome.driver as C:\Users\1\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-14 14:44:38 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: C:\Users\User\Desktop\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241114_144438.png
+2024-11-14 14:44:38 - Test: test02() The test succeeded
+2024-11-14 15:07:01 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-14 15:07:01 - Exporting webdriver.chrome.driver as C:\Users\1\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-14 15:07:02 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-14 15:07:02 - Exporting webdriver.chrome.driver as C:\Users\1\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-14 15:07:07 - Could not add attachment: no test is running
+2024-11-14 15:07:07 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: E:\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241114_150706.png
+2024-11-14 15:07:07 - Could not add attachment: no test is running
+2024-11-14 15:07:07 - Test: test02() The test succeeded
+2024-11-14 15:07:07 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: E:\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241114_150707.png
+2024-11-14 15:07:08 - Test: test02() The test succeeded
