@@ -2,7 +2,7 @@
 <Enviroment>
     <Browser>Chrome</Browser>
     <Url>https://www.saucedemo.com/</Url>
-    <PathScreenShot>E:\Automation\AutomationFinalProject\TestFailureScreenShot</PathScreenShot>
+    <PathScreenShot>C:\Users\User\Desktop\Projects\AutomationFinalProject\TestFailureScreenShot</PathScreenShot>
     <DriversName>
         <driver1>driver</driver1>
     </DriversName>

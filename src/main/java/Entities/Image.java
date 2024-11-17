@@ -1,5 +1,7 @@
 package Entities;
 
+import lombok.Setter;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -12,6 +14,7 @@ import java.io.IOException;
  * This class utilizes {@link BufferedImage} to read image data and calculate properties.
  * </p>
  */
+@Setter
 public class Image {
 
     private String path;

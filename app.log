@@ -297,3 +297,21 @@
 2024-11-14 15:07:07 - Test: test02() The test succeeded
 2024-11-14 15:07:07 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: E:\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241114_150707.png
 2024-11-14 15:07:08 - Test: test02() The test succeeded
+2024-11-14 19:26:58 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-14 19:26:58 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-14 19:27:07 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: E:\Automation\AutomationFinalProject\TestFailureScreenShot/screenshot_20241114_192707.png
+2024-11-14 19:27:08 - Test: test02() The test succeeded
+2024-11-14 19:27:48 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-14 19:27:48 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-14 19:27:57 - Could not add attachment: no test is running
+2024-11-14 19:27:57 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: ../../../TestFailureScreenShot/screenshot_20241114_192756.png
+2024-11-14 19:27:59 - Test: test02() The test succeeded
+2024-11-14 19:28:51 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-14 19:28:51 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-14 19:29:00 - Could not add attachment: no test is running
+2024-11-14 19:29:00 - Test: test01() The test failed org.opentest4j.AssertionFailedError: expected: <Username> but was: <Usernam>. Path of image report: ../../../TestFailureScreenShot/screenshot_20241114_192859.png
+2024-11-14 19:29:02 - Test: test02() The test succeeded
+2024-11-14 20:05:14 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-14 20:05:14 - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-14 20:05:22 - Test: test01() The test succeeded
+2024-11-14 20:05:23 - Test: test02() The test succeeded

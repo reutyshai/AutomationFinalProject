@@ -22,7 +22,7 @@ public class PracticeTest {
     @Test
     public void test01(){
         String placeholder=driver.findElement(By.id("user-name")).getAttribute("placeholder");
-        Assertions.assertEquals(placeholder,"Usernam");
+        Assertions.assertEquals(placeholder,"Username");
     }
 
     @Test
