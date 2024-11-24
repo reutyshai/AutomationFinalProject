@@ -11,9 +11,18 @@ public class Request {
     private String url;
     private Method method;
     private String body;
+    private String tableName;
+
+    public String getTableName() {
+        return tableName;
+    }
+
     private Map<String, String> headers;
     private Map<String, String> queryParams;
 
+    public String getUrl() {
+        return url;
+    }
 
     private HttpRequest httpRequest;
 

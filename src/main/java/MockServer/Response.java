@@ -7,7 +7,7 @@ import java.util.Map;
 @Builder
 public class Response {
 
-    private HttpStatus status;
+    private int status;
     private String body;
     private Map<String, String> headers;
 
@@ -27,7 +27,7 @@ public class Response {
     }
 
     public void createResponse() {
-        httpResponse=HttpResponse.response().withStatusCode(status.getCode());
+        httpResponse=HttpResponse.response().withStatusCode(status);
         addBody();
         addHeaders();
     }

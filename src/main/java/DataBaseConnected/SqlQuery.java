@@ -1,5 +1,6 @@
 package DataBaseConnected;
 
+import java.awt.desktop.ScreenSleepEvent;
 import java.util.List;
 
 public class SqlQuery {
@@ -16,9 +17,23 @@ public class SqlQuery {
             }
             query.deleteCharAt(query.length() - 1);
         }
-        query.append("FROM ");
+
+        query.append(" FROM ");
         query.append(tableName);
+        query.append(" ");
 
         return query.toString();
     }
+
+    public static String createQueryById(List<String> selectFields, String tableName) {
+
+        return createQuery(selectFields, tableName) + "WHERE id= ?";
+    }
+
+//    public static String createQueryWithoutConcreteRow(List<String> selectFields, String tableName) {
+//
+//        return createQuery(selectFields, tableName) + "WHERE id!= ?";
+//    }
+
+
 }
