@@ -1,6 +1,6 @@
 package Report.ReportWriters.Excel;
 
-import Entities.Image;
+import Report.ReportWriters.ImageUtils.Image;
 
 import org.apache.poi.ss.usermodel.*;
 

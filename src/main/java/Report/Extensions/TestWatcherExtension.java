@@ -2,10 +2,10 @@ package Report.Extensions;
 
 import DriverFactory.WebDriverBrowserManager;
 import Readers.XmlFileReader;
-import Report.ReportHandlerStrtegy.LogReportStrategy;
-import Report.ReportHandlerStrtegy.ReportHandler;
+import Report.ReportHandlerStrategy.LogReportStrategy;
+import Report.ReportHandlerStrategy.ReportHandler;
 import Report.ReportWriters.Allure.AllureUtils;
-import Report.ReportWriters.ScreenshotUtil;
+import Report.ReportWriters.ImageUtils.ScreenshotUtil;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestWatcher;
 import org.openqa.selenium.WebDriver;

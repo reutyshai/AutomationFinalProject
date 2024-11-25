@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DatabaseUtils {
+public class DatabaseAccessor {
 
     public static List<HashMap<String, Object>> fetchDataFromDatabase(List<String> fieldsToFetch, String tableName) {
         String query = SqlQuery.createQuery(fieldsToFetch, tableName);
@@ -42,6 +42,30 @@ public class DatabaseUtils {
              PreparedStatement preparedStatement = connection.prepareStatement(query)) {
 
             preparedStatement.setInt(1, id);
+
+            try (ResultSet resultSet = preparedStatement.executeQuery()) {
+                if (resultSet.next()) {
+                    for (String field : fieldsToFetch) {
+                        Object value = resultSet.getObject(field);
+                        result.put(field, value);
+                    }
+                }
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
+
+    public static HashMap<String, Object> fetchDataFromDatabase(List<String> fieldsToFetch, String tableName, String condition) {
+        String query = SqlQuery.createQueryByCondition(fieldsToFetch, tableName);
+        HashMap<String, Object> result = new HashMap<>();
+
+        try (Connection connection = DatabaseConnection.getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+
+            preparedStatement.setString(1, condition);
 
             try (ResultSet resultSet = preparedStatement.executeQuery()) {
                 if (resultSet.next()) {

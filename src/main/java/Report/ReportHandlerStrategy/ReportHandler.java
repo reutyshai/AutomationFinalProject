@@ -1,4 +1,4 @@
-package Report.ReportHandlerStrtegy;
+package Report.ReportHandlerStrategy;
 
 /**
  * Defines a reporting handler interface for managing test result reporting.

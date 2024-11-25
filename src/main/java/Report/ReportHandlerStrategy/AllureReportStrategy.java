@@ -1,4 +1,4 @@
-package Report.ReportHandlerStrtegy;
+package Report.ReportHandlerStrategy;
 
 import Report.ReportWriters.Allure.AllureUtils;
 

@@ -1,4 +1,4 @@
-package Report.ReportWriters;
+package Report.ReportWriters.ImageUtils;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;

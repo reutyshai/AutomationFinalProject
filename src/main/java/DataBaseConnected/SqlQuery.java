@@ -20,20 +20,24 @@ public class SqlQuery {
 
         query.append(" FROM ");
         query.append(tableName);
-        query.append(" ");
 
-        return query.toString();
+        return freezeDatabase(query.toString());
     }
 
     public static String createQueryById(List<String> selectFields, String tableName) {
 
-        return createQuery(selectFields, tableName) + "WHERE id= ?";
+        String query = createQuery(selectFields, tableName) + "WHERE id= ?";
+        return freezeDatabase(query);
     }
 
-//    public static String createQueryWithoutConcreteRow(List<String> selectFields, String tableName) {
-//
-//        return createQuery(selectFields, tableName) + "WHERE id!= ?";
-//    }
+    public static String createQueryByCondition(List<String> selectFields, String tableName) {
 
+        String query = createQuery(selectFields, tableName) + "WHERE ?";
+        return freezeDatabase(query);
+    }
 
+    private static String freezeDatabase(String query) {
+
+        return query + " FOR UPDATE";
+    }
 }

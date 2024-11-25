@@ -1,4 +1,4 @@
-package Entities;
+package Report.ReportWriters.ImageUtils;
 
 import lombok.Setter;
 

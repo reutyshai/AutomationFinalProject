@@ -1,6 +1,6 @@
-package Report.ReportHandlerStrtegy;
+package Report.ReportHandlerStrategy;
 
-import Entities.Image;
+import Report.ReportWriters.ImageUtils.Image;
 import Report.ReportWriters.Excel.ExcelReportManager;
 
 /**
